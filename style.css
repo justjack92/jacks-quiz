@@ -1,0 +1,164 @@
+
+body {
+    background-image: linear-gradient(#02735E, #0D0D0D );
+    height:100vh;
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+
+}
+
+/*These contain all of the question titles*/
+
+.title-containers {
+    margin: 0;
+    color: black;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 80px;
+    width: 400px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Title Page */
+
+.home-title-container {
+    border-radius: 10px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.home-title-1 {
+    margin: 0;
+    color: black;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 80px;
+    width: 400px;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-title-1:hover {
+    background-color: #0D0D0D;
+    color: white;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.home-title-button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-title-button button {
+    font-family: "Poppins", sans-serif;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-title-button button:hover {
+    cursor: pointer;
+    background-color: #0D0D0D;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    text-decoration: underline;
+}
+
+/* Question Pages*/
+
+.question {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px
+}
+
+.question-title {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 200px;
+}
+
+.question-container {
+    width: 800px;
+}
+
+.multiple-choice-answers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.answers {
+    background-color: whitesmoke;
+    margin-top: 50px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 0.25s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.answers p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.answers:hover {
+    background-color: #FFFF80;
+    transform: scale(1.1)
+    ;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.next-button {
+    display: flex;
+    justify-content: center;
+}
+
+.next-button button {
+    margin: 0;
+    font-family:  "Poppins", sans-serif;
+    margin-top: 80px;
+    color: black;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+
+}
+
+.next-button button:hover {
+    background-color: black;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.next-button a {
+    text-decoration: none;
+}
