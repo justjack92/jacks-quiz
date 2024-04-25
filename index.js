@@ -1,9 +1,9 @@
 
 
 document.getElementById("jacks-quiz").onmouseover = function() {
-    changeTitle()};
+    setTimeout(changeTitle, 250)};
 document.getElementById("jacks-quiz").onmouseout = function() {
-    changeBack()};
+    setTimeout(changeBack, 250)};
 
 
 function changeTitle() {
